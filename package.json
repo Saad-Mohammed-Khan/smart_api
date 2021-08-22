@@ -1,0 +1,19 @@
+{
+  "name": "smart-api",
+  "version": "1.0.0",
+  "description": "smart api to place order",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hunain_saeed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.33",
+    "nodemon": "^2.0.12",
+    "smartapi-javascript": "^1.0.14"
+  }
+}
